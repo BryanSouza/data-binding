@@ -1,0 +1,10 @@
+.list {
+    height: auto;
+    max-height: 0;
+    overflow-y: hidden;
+    transition: max-height 0.5s ease-out;
+}
+
+.list--open {
+    max-height: 200px;
+}
